@@ -1,0 +1,64 @@
+body{
+    background-image: url("imagens/20220219_172057.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+
+#inicio {
+    width: 1200px; /*defini a largura do elemento*/
+    margin:30px auto 10px;/*o 56px e a distancia da caixa ate o inicio da tela
+    padding: 100px 100px;/*almenta os lados e a aaltura*/
+    border: 1px solid red;
+
+}
+#links a:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* Cor quando passar o cursor */
+}
+
+#imagens p {
+    margin: 1px 1px;
+    border: 1px solid red;
+    font-size: 180px;
+    color: white;
+    -webkit-text-stroke: 5px black; /* Contorno de 1px preto */
+    text-align: center;
+    font-family: 'inter', sans-serif; /* Utiliza a fonte Roboto, com fallback para fontes sans-serif genéricas */
+
+}
+
+#links a {
+    font-size: 3em;
+    color: black;
+    border: 1px solid red; 
+}
+
+
+
+
+
+
+
+
+#historia{
+    border: 1px solid red;
+    width: 800px; /* Largura inicial do contêiner */
+    height: 550px; /* Altura inicial do contêiner */
+    background-color: #f0f0f0; /* Cor de fundo do contêiner */
+    text-align: center;
+    margin: auto; /* Centraliza horizontalmente */
+}
+
+
+#titulo {
+    border: 1px solid red;
+    text-align: center;
+    font-size: 50px;
+    margin: 1px;
+}
+
+#hist {
+    border: 1px solid red;
+    font-size: 40px;
+}
