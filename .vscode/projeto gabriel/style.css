@@ -6,6 +6,10 @@ body{
 }
 
 
+
+
+
+
 #inicio {
     width: 1200px; /*defini a largura do elemento*/
     margin:30px auto 10px;/*o 56px e a distancia da caixa ate o inicio da tela
@@ -17,7 +21,7 @@ body{
     background-color: rgba(0, 0, 0, 0.2); /* Cor quando passar o cursor */
 }
 
-#imagens p {
+#nome p {
     margin: 1px 1px;
     border: 1px solid red;
     font-size: 180px;
@@ -41,24 +45,96 @@ body{
 
 
 
-#historia{
-    border: 1px solid red;
-    width: 800px; /* Largura inicial do contêiner */
-    height: 550px; /* Altura inicial do contêiner */
-    background-color: #f0f0f0; /* Cor de fundo do contêiner */
-    text-align: center;
-    margin: auto; /* Centraliza horizontalmente */
+
+
+
+
+.irmaos {
+    /* Centraliza os elementos horizontalmente */
+    width: 100%; /* Largura inicial do contêiner */
+    height: 50px; /* Altura inicial do contêiner */
 }
 
-
-#titulo {
-    border: 1px solid red;
-    text-align: center;
-    font-size: 50px;
-    margin: 1px;
-}
-
-#hist {
-    border: 1px solid red;
+.elemento-central {
+    border: 1px solid green;
+    width: 800px; /* Largura do conteúdo */
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+    background: #f0f0f0;
     font-size: 40px;
 }
+
+#titulo{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.elemento-direita {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Define o espaçamento vertical entre os itens */
+    float: left;
+    padding: 24px 0;/* serve para dar um espacamento entre os elementos dentro da caixa*/
+}
+ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'inter', sans-serif;
+    color:black;
+    margin-bottom: 10px; /* Adiciona uma margem de 10 pixels na parte inferior de cada item */
+    padding: 16px 24px;
+background:white;
+border: 5px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.quiz {
+    clear: both;
+     border: 1px solid red;
+    background: white;
+    width: 400px; /* Largura do conteúdo */
+    height: auto;
+    text-align: center;
+    font-family: 'inter', sans-serif;
+  
+   /* 
+    margin-top: auto;
+    border: 1px solid red;
+    clear: both;
+    top: 200px;
+   /* position: relative;
+  top: 200px; /* Ajuste conforme necessário */
+  }
+  
+  .botoes {
+    margin-top: 200px;
+   
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  #contador {
+    font-size: 18px;
+    margin-top: 20px;
+  }
